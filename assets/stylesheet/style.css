@@ -46,3 +46,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ****************************
+************STYLE FOR CSS*****/
+.primary { 
+  padding:60px;
+  background: #dbc472;
+  text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #8e8588;
+}
+.btm a {
+	font-size: 60px;
+	font-style:normal;
+	font-weight: 900;
+	color:  #000000;
+}
+.primary p {
+	margin:20px;
+	color: #8e8588;
+}
+.btm2 a {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom:100px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.btm2 a:hover {
+	background-color: #000000;
+	padding:10px;
+	border-radius: 10px;
+}
+/* custom ends here for primary sec */

@@ -46,3 +46,124 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Three Styles */
+
+.section-three {
+	background-color: #dee3e5;
+}
+
+.section-three h2 {
+	font-size: 28px;
+	font-weight: 600;
+	padding: 10px 10px;
+}
+
+.inner-wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* ClearFix */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/* Column 1 styles */
+
+.three-col1 {
+	width: 350px;
+	height: 500px;
+	float: left;
+	padding-right: 10px;
+}
+
+.three-col1 a {
+	background-color: black;
+	padding: 10px 18px 10px 18px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.three-col1 p {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #777;
+}
+
+.three-col1 hr {
+	width: 300px;
+	border: 1px dotted lightgray;
+	margin-top: 50px;
+}
+
+/* column two begins here */
+.three-col2 {
+	width: 550px;
+	height: 500px;
+	float: left;
+	padding-right: 30px;
+}
+
+.three-col2 img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.three-col2 p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #777;
+}
+
+/* Column three begins here */
+.three-col3 {
+	height: 500px;
+}
+
+.three-col3 p {
+	line-height: 1.5;
+	margin-top: 20px;
+	color: #777;
+}
+
+.three-col3 hr {
+	border: 1px solid lightgray;
+}
+
+/* Footer begins here */
+.footer {
+	text-align: center;
+	background-color: #dee3e5;
+	padding: 40px 40px;
+}

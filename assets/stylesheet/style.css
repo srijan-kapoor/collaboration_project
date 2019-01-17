@@ -47,30 +47,164 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS Reset ends here */
+
+/*Defining Clearfix*/
+
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/**Primary Section**/
+.primary{ 
+	padding:60px;
+	background: #dbc472;
+	text-align: center;
+  }
+.primary a{
+	text-decoration: none;
+	color: #8e8588;
+}
+.btm a{
+	font-size: 60px;
+	font-style:normal;
+	font-weight: 900;
+	color:  #000000;
+}
+.primary p{
+	margin:20px;
+	color: #8e8588;
+}
+.btm2 a{
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom:100px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.btm2 a:hover{
+	background-color: #000000;
+	padding:10px;
+	border-radius: 10px;
+}
+/* custom ends here for primary sec */
+
+/* Sidebar Left*/
+
+.sidebar{
+	float:left;
+	margin-left: 30px;
+}
+
+.section-two h3{
+	font-size: 32px;
+	color: black;
+	overflow: auto;
+	margin:10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
+} 
+
+.section-two .btn{
+	margin: 10px;
+	padding: 10px 20px 10px 10px;
+}
+
+.sidebar .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.section-two .sidebar p{
+	margin: 10px;
+	padding: 10px 20px 10px 10px;
+	color: #777;
+	font-family: 'Lato', sans-serif;
+}
+
+hr{
+	width:90%;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+/*Sidebar Right*/
+
+.sidebar2{
+	float: right;
+	margin-right: 30px;
+}
+
+.sidebar2 p{
+	margin: 0 10px;
+	padding: 5px 20px 5px 10px;
+	color: #777;
+	font-family: 'Lato', sans-serif;
+}
+
+.sidebar2 .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+/* Center Section*/
 
 
+.section-two h2{
+	font-size: 44px;
+	color: black;
+	margin:10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif; 
+}
 
+.middle p{
+	color: #818b8e;
+	font-family: 'Lato', sans-serif;
+	line-height: 20px;
+	margin: 10px 40px;
+	padding: 4px;
+}
 
+.middle .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 4px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.middle p strong{
+	font-weight: bold;
+}
+  
 /* Section Three Styles */
 
 .section-three {
 	background-color: #dee3e5;
+	margin-top: 150px;
 }
 
 .section-three h2 {
@@ -84,17 +218,6 @@ table {
 	margin: 0 auto;
 }
 
-/* ClearFix */
-.clearfix:before, .clearfix:after {
-	content: "";
-	display: table;
-}
-.clearfix:after {
-	clear: both;
-}
-.clearfix {
-	*zoom: 1;
-}
 
 /* Column 1 styles */
 

@@ -46,3 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*Defining Clearfix*/
+
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/*Main CSS*/
+
+.sidebar1 h3{
+	font-size: 32px;
+	color: #8A8A8A;
+	float: left;
+	
+} 

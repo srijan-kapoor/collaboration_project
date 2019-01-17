@@ -61,11 +61,108 @@ table {
 	*zoom: 1;
 }
 
-/*Main CSS*/
+/* Sidebar Left*/
 
-.sidebar1 h3{
+.sidebar{
+	float:left;
+	margin-left: 30px;
+}
+
+.section-two h3{
 	font-size: 32px;
-	color: #8A8A8A;
-	float: left;
-	
+	color: black;
+	overflow: auto;
+	margin:10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
 } 
+
+.section-two .btn{
+	margin: 10px;
+	padding: 10px 20px 10px 10px;
+}
+
+.sidebar .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.section-two .sidebar p{
+	margin: 10px;
+	padding: 10px 20px 10px 10px;
+	color: #777;
+	font-family: 'Lato', sans-serif;
+}
+
+hr{
+	width:90%;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+/*Sidebar Right*/
+
+.sidebar2{
+	float: right;
+	margin-right: 30px;
+}
+
+.sidebar2 p{
+	margin: 0 10px;
+	padding: 5px 20px 5px 10px;
+	color: #777;
+	font-family: 'Lato', sans-serif;
+}
+
+.sidebar2 .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 4px;
+
+}
+
+/* Center Section*/
+
+
+.section-two h2{
+	font-size: 44px;
+	color: black;
+	margin:10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.middle p{
+	color: #818b8e;
+	font-family: 'Lato', sans-serif;
+	line-height: 20px;
+	margin: 10px 40px;
+	padding: 4px;
+}
+
+.middle .btn a{
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.middle p strong{
+	font-weight: bold;
+}

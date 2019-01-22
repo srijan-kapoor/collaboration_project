@@ -342,10 +342,47 @@ header h3 {
 	border-bottom-left-radius: 5px;
 	float: left;
 }
+.row {
+	vertical-align: middle;
+}
+.row h3 {
+	padding: 20px 0;
+}
 .row h5 {
 	color: white;
+	padding: 10px 20px;
+	
 }
 
 .row p {
+	line-height: 0.4rem;
 	color: #858484;
+	padding: 0px 20px;
+	vertical-align: middle;
+}
+hr {
+	border: 1px solid #777;
+	position: relative;
+	/*width: 40%;*/
+	/*left: 10%;*/
+}
+.footer li {
+	padding: 10px 0;
+}
+.row-side {
+	margin-left: 40px;
+	padding: 20px;
+}
+.row-side h3 {
+	color: #fff;
+	margin: : 10px;
+}
+.row-side p {
+	color: #858484;
+}
+.links{
+	text-decoration: underline;
+}
+.footer-contact h4 {
+	color: #fff;
 }

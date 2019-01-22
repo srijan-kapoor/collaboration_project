@@ -52,7 +52,7 @@ table {
 	--color-primary: #252122; /*Section Heading*/
 	--color-secondary: #5d5d5d; /*Section Content*/
 	--color-tertiary: rgb(213, 35, 73); /*Red box background*/
-	--font: "Source Sans Pro";
+	--font: "Source Sans Pro", sans-serif;
 	--text-color: #5d5d5d;
 	/*--heading-color: #fff;*/
 	  font-size: 16px;
@@ -151,7 +151,7 @@ h6 {
 
 /* General */
 .wrapper {
-	max-width: 1100px;
+	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -169,7 +169,7 @@ h6 {
 }
 .sub-heading {
 	font-weight: 400;
-	color: #b6babf;
+	/*color: #b6babf;*/
 }
 
 
@@ -224,4 +224,96 @@ h6 {
 .col-12 {
 	width: 100%;
 	float: left;
+}
+
+/* Portfolio CSS */
+
+.portfolio {
+	background: var(--bg-secondary);
+	box-sizing: border-box;
+}
+.portfolio_wrapper {
+	/*max-width: 900px;*/
+	/*width: 100%;*/
+	/*padding: 20px;*/
+	/*margin: 0 auto;*/
+
+	
+	/*overflow: hidden;*/
+}
+.portfolio_item {
+	margin-right: 60px;
+	background: white;
+	box-sizing: border-box;
+	position: relative;
+	left: 80px;
+}
+.portfolio_content {
+	text-align: left;
+	font-family: var(font);
+	font-weight: 300;
+	color: var(text-color);
+	box-sizing: border-box;
+	padding: 20px;
+}
+.btn {
+	padding: 16px 24px;
+	border-radius: 10px;
+	font-weight: 900;
+	box-shadow: none;
+	background: var(--color-primary);
+	color: #fff;
+	font-size: 0.8rem;
+	margin: 20px 0;
+}
+.portfolio h3 {
+	margin: 20px;
+	color: var(--color-primary);
+}
+.portfolio h4 {
+	color: var(--color-primary);
+}
+.portfolio h5 i {
+	font-style: italic;
+	font-weight: 300;
+}
+h2 
+{ 
+	width:100%; 
+	text-align:center; 
+	border-bottom: 1px solid black; 
+	line-height:0.1em; 
+	margin:10px 20px; 
+} 
+h3 div {
+    text-align: center;
+    position: relative;
+}
+span {
+    display: inline-block;    
+}
+span:before,
+span:after {
+    border-top: 1px solid #ccc;
+    display: block;
+    content: " ";
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+}
+span:after {
+   right: 0;  
+   left: auto; 
+}
+.red {
+	background: #F7004E;
+	/*padding: 20px 24px;*/
+	font-size: 0.9rem;
+}
+.black {
+	font-size: 0.9rem
+}
+.blog {
+	padding: 20px 0px;
 }

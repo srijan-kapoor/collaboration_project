@@ -233,13 +233,6 @@ h6 {
 	box-sizing: border-box;
 }
 .portfolio_wrapper {
-	/*max-width: 900px;*/
-	/*width: 100%;*/
-	/*padding: 20px;*/
-	/*margin: 0 auto;*/
-
-	
-	/*overflow: hidden;*/
 }
 .portfolio_item {
 	margin-right: 60px;
@@ -255,16 +248,23 @@ h6 {
 	color: var(text-color);
 	box-sizing: border-box;
 	padding: 20px;
+	letter-spacing: 0.034rem;
 }
 .btn {
 	padding: 16px 24px;
-	border-radius: 10px;
+	border-radius: 6px;
 	font-weight: 900;
 	box-shadow: none;
 	background: var(--color-primary);
 	color: #fff;
 	font-size: 0.8rem;
 	margin: 20px 0;
+}
+.red:hover {
+	background: #e53359;
+}
+.black:hover {
+	background: #353132;
 }
 .portfolio h3 {
 	margin: 20px;
@@ -277,8 +277,7 @@ h6 {
 	font-style: italic;
 	font-weight: 300;
 }
-h2 
-{ 
+h2 { 
 	width:100%; 
 	text-align:center; 
 	border-bottom: 1px solid black; 
@@ -306,9 +305,13 @@ span:after {
    right: 0;  
    left: auto; 
 }
+button i {
+	color: #ccc;
+	padding: 0 6px;
+	opacity: 0.4;
+}
 .red {
 	background: #F7004E;
-	/*padding: 20px 24px;*/
 	font-size: 0.9rem;
 }
 .black {

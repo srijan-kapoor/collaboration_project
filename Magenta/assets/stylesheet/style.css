@@ -225,3 +225,32 @@ h6 {
 	width: 100%;
 	float: left;
 }
+
+/* Footer Styles */
+
+footer {
+	background: var(--bg-tertiary);
+}
+
+header h3 {
+	color: white;
+}
+
+.arrow {
+	width: 55px;
+	height: 55px;
+	left: 0;
+	background-color: #d52349;
+	text-align: center;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.row h5 {
+	color: white;
+}
+
+.row p {
+	color: #858484;
+}

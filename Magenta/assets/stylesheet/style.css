@@ -360,8 +360,8 @@ header h3 {
 	padding: 0px 20px;
 	vertical-align: middle;
 }
-hr {
-	border: 1px solid #777;
+.footer hr {
+	border: 1px solid rgb(43, 42, 42);
 	position: relative;
 	/*width: 40%;*/
 	/*left: 10%;*/
@@ -375,7 +375,7 @@ hr {
 }
 .row-side h3 {
 	color: #fff;
-	margin: : 10px;
+	margin: 10px;
 }
 .row-side p {
 	color: #858484;
@@ -385,4 +385,40 @@ hr {
 }
 .footer-contact h4 {
 	color: #fff;
+}
+
+/* Social */
+
+.fab {
+	font-size: 48px;
+}
+.fa-facebook-square {
+	color: #4C6AA8;
+}
+.fa-twitter-square {
+	color: #2daae4;
+}
+.fa-dribbble-square {
+	color: #c4376b;
+}
+.fa-tumblr-square {
+	color: #2b4661;
+}
+.fa-linkedin {
+	color: #006599;
+}
+
+.links li {
+	display: inline-block;
+}
+
+/* Copyright section */
+
+.copyright {
+	width: 280px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 5px;
+	padding: 0.85em 2.25em 0.85em 2.25em;
+	margin: 0 auto;
 }

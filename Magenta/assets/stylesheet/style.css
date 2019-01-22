@@ -362,9 +362,7 @@ header h3 {
 }
 .footer hr {
 	border: 1px solid rgb(43, 42, 42);
-	position: relative;
-	/*width: 40%;*/
-	/*left: 10%;*/
+
 }
 .footer li {
 	padding: 10px 0;
@@ -380,17 +378,16 @@ header h3 {
 .row-side p {
 	color: #858484;
 }
-.links{
-	text-decoration: underline;
-}
-.footer-contact h4 {
+
+.footer-contact h4, .footer-contact h5 {
 	color: #fff;
 }
 
 /* Social */
 
 .fab {
-	font-size: 48px;
+	font-size: 52px;
+	
 }
 .fa-facebook-square {
 	color: #4C6AA8;
@@ -408,17 +405,33 @@ header h3 {
 	color: #006599;
 }
 
+.links a, .links {
+	text-decoration: underline;
+}
+
+.footer-contact a:hover, p:hover {
+	text-decoration: none;
+}
+
 .links li {
 	display: inline-block;
+	margin: 5px;
+}
+
+.footer-contact li h5 {
+	position: absolute;
+}
+
+.footer-contact li p {
+	position: relative;
+	left: 150px;
 }
 
 /* Copyright section */
 
 .copyright {
-	width: 280px;
-	height: 25px;
 	background: rgba(255, 255, 255, 0.05);
 	border-radius: 5px;
-	padding: 0.85em 2.25em 0.85em 2.25em;
+	padding: 5px;
 	margin: 0 auto;
 }

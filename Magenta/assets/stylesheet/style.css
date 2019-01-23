@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -21,7 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -224,4 +224,91 @@ h6 {
 .col-12 {
 	width: 100%;
 	float: left;
+}
+/**********************************
+***********************************/
+/* Header */
+header {
+    position: relative;
+    background: #ffffff;
+    border-bottom: solid 1px #ccc;
+    padding: 5em 0 4em 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+header h1{
+    margin-bottom: 38px;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+.nav .active {
+    background-color:#D52349;
+	color: #fff;
+	border-radius: 5px;
+}
+.nav a:hover {
+	background-color:#F3F3F3;
+	color:#5d5d5d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav .active:hover{
+    background-color:#D52349;
+    color:#fff;
+    border: 5px;
+}
+.btn {
+	padding:0.6em 1.2em 0.6em 1.2em;
+	border-radius: 5px;
+	font-weight: 500;
+	background: #fff;
+    color:#5d5d5d;
+    outline: 0;
+}
+/******Banner************/
+
+.banner {
+    background: url("./../media/pic01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    padding: 8em 0;
+    margin: 0px;
+}
+.banner  h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin: 0 0 0.65em 0;
+}
+
+.banner-heading {
+    background-color: rgba(34, 30, 31, 0.98);
+    display: inline-block;
+    padding: 2.5em 5em;
+    border-radius: 5px;
+}
+
+.banner-heading p{
+    color: #C42245;
+}
+.icon-feature {
+    position: relative;
+    display: inline-block;
+    background-color: #d52349;
+    width: 9em;
+    padding: 1.75em 0 0.75em 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 0 4.5em 0;
+    cursor: default;
 }

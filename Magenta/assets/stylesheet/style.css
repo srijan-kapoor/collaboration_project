@@ -151,7 +151,7 @@ h6 {
 
 /* General */
 .wrapper {
-	max-width: 1200px;
+	max-width: 1120px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -174,8 +174,12 @@ h6 {
 
 
 /* Grid */
+.pull-back {
+	margin-left: -20px;
+	margin-right: -20px;
+}
 .col {
-	padding: 15px;
+	padding: 0 20px;
 }
 .col-1 {
 	width: 8.3333%;
@@ -229,33 +233,30 @@ h6 {
 ***********************************/
 /* Header */
 .header  {
-  position: relative;
   background: var(--bg-primary);
-  border-bottom: solid 1px #ccc;
-  padding: 5em 0 4em 0;
+  padding: 5rem 0 2.5rem 0;
 }
 .header h2 {
-  margin-bottom: 38px;
-  padding-bottom: 20px;
   color: var(--color-primary);
 }
-/*.nav-head{ 
-  list-style-type: none;
-}*/
+.nav {
+	margin-top: 50px;
+}
 .nav-head a { 
-	text-decoration: none;
 	font-style: italic;
+	border-radius: 5px;
+	font-weight: 500;
+	padding: 12px;
+	background: var(--bg-primary);
+  color: var(--color-secondary);
 }
 .nav-head li {
   display: inline-block;
   margin: 0px 20px;
 }
-.nav-head .active {
-	color: var(--bg-secondary);
-}
 .nav .active {
-  background-color: var(--bg-tertiary);
-	color: var(--color-primary);
+  background-color: var(--color-tertiary);
+	color: var(--bg-primary);
 	border-radius: 5px;
 }
 .nav a:hover {
@@ -269,30 +270,53 @@ h6 {
   color: var(--bg-primary);
   border: 5px;
 }
- .nav .btn {
-	padding:0.6em 1.2em 0.6em 1.2em;
-	border-radius: 5px;
-	font-weight: 500;
-	background: var(--bg-primary);
-  color: var(--color-secondary);
-  outline: 0;
+.dropdown-link {
+	position: relative;
 }
-
+.sub-menu-box {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+	padding-top: 30px;
+}
+.sub-menu {
+	background: var(--bg-tertiary);
+	border-radius: 4px;
+	padding: 20px 20px;
+	text-align: left;
+	width: 170px;
+	display: none;
+}
+.sub-menu li {
+	display: block;
+	margin: 0;
+}
+.sub-menu li a {
+	display: block;
+	background: none;
+	padding: 0;
+}
+.dropdown-link:hover .sub-menu {
+	display: block;
+}
+.sub-menu li a:hover {
+	background: none;
+	color: #fff;
+}
 /******Banner************/
 
 .banner {
   background: url("./../media/pic01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   padding: 8em 0;
-  margin: 0px;
 }
 .banner-heading h2 {
   color: white;
   font-weight: 700;
-  font-size: 2.5em;
-  margin: 0 0 0.65em 0;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .banner-heading {
@@ -306,9 +330,7 @@ h6 {
   color: var(--color-tertiary);
   font-size: 1.4rem;
 }
-.content {
-	padding: 50px 40px;
-}
+
 /* Article section */
 .icon-feature {
 	font-size: 48px;
@@ -325,6 +347,13 @@ h6 {
 .icon-feature i {
 	color: #fff;
 }
+.content {
+	padding: 80px 40px;
+	box-shadow: -8px 0 16px -13px rgba(0, 0, 0, 0.4);
+}
+.content:first-child {
+	box-shadow: none;
+}
 .content h2 {
 	color: var(--color-primary);
 	font-weight: 700;
@@ -339,9 +368,6 @@ h6 {
 }
 .icon-feature-star {
 	background: #827A7C;
-}
-.content-bolt {
-	box-shadow: 0 6px 4px 0px rgba(0, 0, 0, 0.3), 0px 6px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .extra-link-btn {
 	padding: 20px 80px;
@@ -372,14 +398,17 @@ h6 {
 
 .portfolio {
 	background: var(--bg-secondary);
-	box-sizing: border-box;
+}
+.portfolio_wrapper {
+	margin-left: -20px;
+	margin-right: -20px;
 }
 .portfolio_item {
-	margin-right: 60px;
-	background: white;
-	box-sizing: border-box;
-	position: relative;
-	left: 80px;
+	padding: 0 20px;
+}
+.portfolio_child {
+	background: #fff;
+	border-bottom: 1px solid #ccc;
 }
 .portfolio_content {
 	text-align: left;
@@ -413,8 +442,9 @@ h6 {
 	background: #353132;
 }
 .portfolio h3 {
-	margin: 20px;
 	color: var(--color-primary);
+	position: relative;
+	margin-bottom: 30px;
 }
 .portfolio h4 {
 	color: var(--color-primary);
@@ -422,33 +452,21 @@ h6 {
 .portfolio h5 i {
 	font-style: italic;
 	font-weight: 300;
+
 }
-h2 { 
-	width:100%; 
-	text-align:center; 
-	/* border-bottom: 1px solid black;  */
-	line-height:0.1em; 
-	margin:10px 20px; 
-} 
-h3 div {
-  position: relative;
+.portfolio_heading span:before, .portfolio_heading span:after {
+	content: '';
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 40%;
+	position: absolute;
+	top: 50%;
 }
-div span {
-  display: inline-block;    
+.portfolio_heading span:before {
+	left: 0;
 }
-span:before,
-span:after {
-  border-top: 1px solid #ccc;
-  display: block;
-  content: " ";
-  width: 40%;
-  position: absolute;
-  left: 0;
-  top: 1.5rem;
-}
-span:after {
-   right: 0;  
-   left: auto; 
+.portfolio_heading span:after  {
+	right: 0;
 }
 button i {
 	color: #ccc;
@@ -485,9 +503,6 @@ header h3 {
 .row {
 	vertical-align: middle;
 }
-.row h3 {
-	padding: 20px 0;
-}
 .row h5 {
 	color: white;
 	padding: 10px 20px;
@@ -502,7 +517,6 @@ header h3 {
 }
 .footer hr {
 	border: 1px solid rgb(43, 42, 42);
-
 }
 .footer li {
 	padding: 10px 0;
@@ -587,6 +601,7 @@ header h3 {
 	color: #858484;
 	font-size: 1rem;
 	margin: 20px 0;
-	position: relative;
-	left: 40%;
+}
+footer {
+	padding: 60px 0;
 }

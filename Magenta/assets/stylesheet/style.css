@@ -228,21 +228,19 @@ h6 {
 /**********************************
 ***********************************/
 /* Header */
-header {
+header  {
     position: relative;
     background: #ffffff;
     border-bottom: solid 1px #ccc;
     padding: 5em 0 4em 0;
-    text-align: center;
-    text-transform: capitalize;
 }
-header h1{
+header h1 {
     margin-bottom: 38px;
 }
-ul{
+ul { 
     list-style-type: none;
 }
-ul li a{
+ul li a { 
     text-decoration: none;
 }
 ul li {
@@ -260,7 +258,7 @@ ul li {
     border-radius: 5px;
     cursor: pointer;
 }
-.nav .active:hover{
+.nav .active:hover {
     background-color:#D52349;
     color:#fff;
     border: 5px;
@@ -273,13 +271,42 @@ ul li {
     color:#5d5d5d;
     outline: 0;
 }
+/* for dropdown */
+/* .dropbtn {
+	background:#fff;
+	color:#5d5d5d;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropbtn:hover ,
+.dropbtn:focus {
+	background: #D52349;
+}
+.dropdown-content {
+	display:none;
+	position: absolute;
+	background: #b6babf;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color:black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display:block;
+}
+.dropdown-content a:hover {
+	background: #ddd;
+} */
 /******Banner************/
 
 .banner {
     background: url("./../media/pic01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
     position: relative;
     padding: 8em 0;
     margin: 0px;
@@ -298,17 +325,49 @@ ul li {
     border-radius: 5px;
 }
 
-.banner-heading p{
+.banner-heading p {
     color: #C42245;
 }
+.content {
+	padding: 50px 40px;
+}
+/* Article section */
 .icon-feature {
+	font-size: 48px;
     position: relative;
     display: inline-block;
-    background-color: #d52349;
-    width: 9em;
-    padding: 1.75em 0 0.75em 0;
+	background-color: #d52349;
+	color: #fff;
+    padding: 10px 60px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 0 0 4.5em 0;
-    cursor: default;
+    margin-bottom: 25px;
+	cursor: default;
 }
+.icon-feature-bolt {
+	background: #252122;
+}
+.icon-feature-star {
+	background: #827A7C;
+}
+.content-bolt {
+	box-shadow: 6px 0px 10px 0px rgba(0, 0, 0, 0.3), -6px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.extra-link-btn {
+	padding: 20px 80px;
+	margin-top: 50px;
+	border-radius: 20px;
+	font-weight: 500;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 1;
+	box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.5);
+}
+.extra-link .btn1 {
+	background: #E53359;
+}
+.extra-link .btn2 {
+	background: #353132;
+	margin-left: 15px;
+}
+/* style ends for header and hero section */

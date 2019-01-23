@@ -3,8 +3,9 @@
 	<head>
 		<title>Magenta</title>
 		<meta charset="utf-8">
-
-		<!--  Linking Font Awesome -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 
+		<!-- Linking Font Awesome  -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 		<!-- Linking Google Fonts -->
@@ -15,56 +16,76 @@
 	</head>
 	<body>
 		<!-- header begins here -->
-      <header class="header">
-          <h1>Dopetrope</h1>
-          <nav class="nav">
-              <ul>
-                  <li><a  class="btn active" href="">home</a></li>
-                  <li><a  class="btn" href="">dropdown</a></li>
-                  <li><a  class="btn"  href="">left sidebar</a></li>
-                  <li><a  class="btn" href="">write sidebar</a></li>
-                  <li><a  class="btn" href="">no sidebar</a></li>
-              </ul>
-          </nav>
-      </header>
+		<header class="header text-center">
+			<h1>Dopetrope</h1>
+			<nav class="nav  uppercase">
+				<ul>
+					<li><a  class="btn active" href="">home</a></li>
+					<li><a  class="btn" href="">dropdown</a>
+						<!-- <div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+								<div class="myDropdown dropdown-content">
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+									</ul>
+								</div>
+						</div> -->
+					<li><a  class="btn"  href="">left sidebar</a></li>
+					<li><a  class="btn" href="">write sidebar</a></li>
+					<li><a  class="btn" href="">no sidebar</a></li>
+				</ul>
+			</nav>
+		</header>
 		<main>
-				<!-- banner section begins here -->
-				 <section class="banner">
-						 <div class="banner-heading">
-								 <h2>Libero. Enim at Magnis.</h2>
-								 <p>A lectus sapien at Libero</p>
-						 </div>
-				 </section>
-				 <!-- Article section -->
-				 <section class="clearfix">
-					 <div class="col-4">
-							 <article class="article article1 text-center">
-									 <div class="icon-feature">
-											 <i class="fas fa-cog"></i>
-									 </div>
-									 <h2 class="heading uppercase">Ipsum consequat</h2>
-									 <p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-							 </article>
-					 </div>
-					 <div class="col-4">
-							 <article class="article article1 text-center">
-									 <div class="icon-feature">
-											 <i class="fas fa-bolt"></i>
-									 </div>
-									 <h2 class="heading uppercase">Ipsum consequat</h2>
-									 <p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-							 </article>
-					 </div>
-					 <div class="col-4">
-							 <article class="article article1 text-center">
-									 <div class="icon-feature">
-											 <i class="fas fa-star"></i>
-									 </div>
-									 <h2 class="heading uppercase">Ipsum consequat</h2>
-									 <p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
-							 </article>
-					 </div>
-				 </section>
+			<!-- banner section begins here -->
+			<section class="banner text-center">
+				<div class="banner-heading">
+					<h2>Libero. Enim at Magnis.</h2>
+					<p>A lectus sapien at Libero</p>
+				</div>
+			</section>
+			<!-- Article section -->
+			<section class="clearfix wrapper padding">
+				<div class="col-4 content">
+					<article class="text-center">
+						<div class="icon-feature">
+							<i class="fas fa-cog"></i>
+						</div>
+						<h2 class="heading uppercase">Ipsum consequat</h2>
+						<p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+					</article>
+				</div>
+				<div class="col-4 content content-bolt">
+					<article class="text-center">
+						<div class="icon-feature icon-feature-bolt">
+							<i class="fas fa-bolt"></i>
+						</div>
+						<h2 class="heading uppercase">Ipsum consequat</h2>
+						<p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+					</article>
+				</div>
+				<div class="col-4 content">
+					<article class="text-center">
+						<div class="icon-feature icon-feature-star">
+							<i class="fas fa-star"></i>
+						</div>
+						<h2 class="heading uppercase">Ipsum consequat</h2>
+						<p class="article__text">Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+					</article>
+				</div>
+				<div class="extra-link text-center uppercase">
+					<button class="extra-link-btn btn1">Get Started</button>
+					<button class="extra-link-btn btn2">Learned More</button>
+				</div>
+			</section>
+			<hr>
+
+	
+
 
 			<!-- section two by srijan -->
 			<section>

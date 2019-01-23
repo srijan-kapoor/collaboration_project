@@ -228,7 +228,7 @@ h6 {
 /**********************************
 ***********************************/
 /* Header */
-header  {
+.header  {
     position: relative;
     background: #ffffff;
     border-bottom: solid 1px #ccc;
